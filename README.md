@@ -6,6 +6,34 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
+### Preparing for installation
+
+### Integrating yarn
+     sudo apt remove cmdtest
+     sudo apt remove yarn
+     curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
+     echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
+     sudo apt-get update
+     sudo apt-get install yarn -y
+     
+
+### Integrating bootstrap
+     yarn add bootstrap
+     yarn add react-bootstrap
+     yarn add react-router-bootstrap
+
+### Integrating Scss
+     yarn add -D sass-loader node-sass
+
+### Integrating router
+     yarn add react-router-dom
+
+
+### Integrating material ui
+     yarn add @material-ui/core
+     yarn add @material-ui/icons
+     yarn add fontsource-roboto
+
 ### `yarn start`
 
 Runs the app in the development mode.\
